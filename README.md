@@ -18,7 +18,8 @@ get logs of service:
 `docker-compose logs -f -t whreceiver`
 
 CONFIGURATION
-in `config.ini`
+
+in `config.ini`:
 [socketserver] => leave as it is
 change filename for output if desired
 [output] filename = `webhook_log.json`
