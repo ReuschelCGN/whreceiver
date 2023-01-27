@@ -3,6 +3,7 @@ RAW Webhook Receiver for develop use
 
 This is particularly useful in develop/setup your applications and scripts.
 
+
 INSTALLATION
 
 1. Clone repository git clone `https://github.com/ReuschelCGN/whreceiver`
@@ -16,6 +17,7 @@ INSTALLATION
 
 get logs of service:
 `docker-compose logs -f -t whreceiver`
+
 
 CONFIGURATION
 
