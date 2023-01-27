@@ -1,0 +1,17 @@
+version: '2.4'
+services:
+  whreceiver:
+    container_name: whreceiver
+    build:
+      context: ./whreceiver
+    restart: unless-stopped
+    volumes:
+      - /etc/timezone:/etc/timezone:ro
+      - /etc/localtime:/etc/localtime:ro
+      - ./whreceiver/config.ini:/usr/src/app/config.ini
+      - ./whreceiver/output/:/usr/src/app/output/
+    networks:
+      - default
+#   Leave this uncomment, unless wh receiver is used external!
+#    ports:
+#      - "4444:4444"
