@@ -6,7 +6,7 @@ This is particularly useful in develop/setup your applications and scripts.
 
 INSTALLATION
 
-1. Clone repository git clone `https://github.com/ReuschelCGN/whreceiver`
+1. Clone repository `git clone https://github.com/ReuschelCGN/whreceiver`
 2. Copy content of docker-compose.yml.example into your running docker-compose.yml
 3. Change networks key `default` to your existing dockernetwork name
 3. Adjust config `config.ini` if needet.
