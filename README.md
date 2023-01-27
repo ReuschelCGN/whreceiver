@@ -24,7 +24,9 @@ in `config.ini`:
 [socketserver] => leave as it is
 
 change filename for output if desired
+
 [output] filename = `webhook_log.json`
 
 point your Webhook (e.g. from rdm) to see what infos are send to:
+
 `http://whreceiver:4444/webhook`
